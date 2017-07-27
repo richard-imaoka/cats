@@ -305,8 +305,8 @@ Let's see a trivial example of unrelated ADT's getting composed as a `EitherK` t
 
 ```tut:silent
 import cats.data.EitherK
-import cats.free.Free
-import cats.{Id, InjectK, ~>}
+import cats.free.{Free, InjectK}
+import cats.{Id, ~>}
 import scala.collection.mutable.ListBuffer
 ```
 
